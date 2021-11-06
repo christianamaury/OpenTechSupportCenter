@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Styles CSS	 -->
+	<link rel="stylesheet" href="styles.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title> Open Tech Support Center </title>
+    
+  </head>
+  
+  <body class="bg-warning text-white">
+  	<div class="container text-center">
+  
+    <h1 class="display-1 mt-5"> Open Tech Support Center </h1>
+    <p class="lead mb-5"> A leading provider of open software platforms in Storage Technology. </p>
+    
+    <!-- Navig Bar Starting Point -->
+	<!-- nav-tabs effect -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-3">
+  <div class="container-fluid">
+  
+	<!-- target _blank in ordee to open tab in a new page    -->
+    <a class="navbar-brand order-1" href="https://opentechalliance.com" target="_blank"> Presented by Open Tech Alliance </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<!-- Navig Bar Closured Ending -->
+    
+    <div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Enter a keyword here.." aria-label="Enter a keyword here.." aria-describedby="button-addon2">
+  <button class="btn btn-primary" type="button" id="button-addon2">Search</button>
+  
+	</div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    
+   </div>
+   
+   <!-- Jumbotrón Component -->
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container text-center mb-3">
+	<!-- We need to add the proper text file reference in the brackets.   -->
+    <p class="lead"> Have more questions? Check out our [Frequent Asked Questions]</p>
+  </div>
+</div>
+
+
+<!-- Ending Tag -->
+   
+
+  </body>
+  
+<!-- Changed container fluid -->
+  <div class="container pt-4">
+  
+<!-- About  -->
+  <div class="row">
+    <div class="col-sm order-lg-1">
+      <h3 class ="mb-4"> INSOMNIAC CIA REPLACEMENT GATEWAY PROCESS </h3>
+      <p> Verify Router IP Configuration. Use the linked document below to verify or configure the router with the correct IP information specific to the facility. </p>
+      <p> Click here for PS entire configuration [Configure Max Edge Router for Public Storage 2.docx] </p>
+      <p> While a PC is still connected to ETH1 of the Gateway Edge Router, please visit the following IP Address: 172.24.151.251:8888 </p>
+      <p> [Click here for other facilities configuration] </p>
+      
+      <img class="images mt-5"src="images/gatewayprocess2.png" alt="Keypad UID">
+      
+    </div>
+    
+	<!-- This class automatically creates equal width columns in the small break point and up. -->
+    <div class="col-sm order-lg-1">
+		<h3 class="mb-4"> INSOMNIAC CIA INTERFACING TO PMS SOFTWARE </h3>
+		<p> The INSOMNIAC CIA can interface with PMS software either through API calls or via flat text files.</p>
+		<p> The INSOMNIAC CIA uses a program called FileWatcher to either emulate the file format of a PTI system or DigiGate system. </p>
+		<p> The FileWatcher must be configured on the computer that the PMS software is transmitting the flat file. </p>
+		<p> [Click here for the full document instruction] </p>
+		
+		<img class="images mt-5"src="images/filewatcher.png" alt="Keypad UID">
+    </div>
+        <div class="col-sm order-lg-1">
+      <h3 class="mb-4"> FINDING KEYPAD UNIQUE ID</h3>
+      	<p> Open Tech Alliance keypads all have an unique ID's attached to them in order to be able to properly identify keypads, despite
+      	the name they may be assigned. This is often required when troubleshooting access zones. </p>
+      	<p> In order to get such UID, the keypad must be powered on. They will need to press numeric 0, the asterisk symbol * and the pound sign
+      	simultaneously. This could potentially take multiple tries. Once the service screen appears, the UID will be the 3rd set of 4 characters (from left to right). </p>
+      	
+      	<img class="images mt-5"src="images/keypaduid.png" alt="Keypad UID">
+     </div> 
+    
+<!-- About end,     -->
+  	</div>
+  
+<!-- Container Ends-->
+
+<!-- Ohther Helpful Articles -->
+	<h1 class="display-4 text-center my-5"> Other related articles </h1>
+	[data here]
+<!-- Ends here	 -->
+
+	<h1 class="display-4 text-center my-5" text-center> Other information  </h1>
+	[other data here]
+	
+	
+	
+	<!-- signup form -->
+<!-- Horizontal Rule down here.. 	 -->
+<hr>
+<div class="row py-4 text-muted">
+  <div class="col-md col-xl-5">
+    <p><strong>About Open Tech Alliance </strong></p>
+    <p> Providing innovative products and 24/7 services to help self storage owners work SMARTER </p>
+  </div>
+  <div class="col-md col-xl-5 ml-auto">
+    <p><strong> Automation and call center services for the self storage industry </strong></p>
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Email">
+      <span class="input-group-btn">
+        <button class="btn btn-primary" type="button">Sign up</button>
+      </span>
+    </div>
+  </div>
+</div>
+
+<hr><!-- /signup form -->
+	
+<!-- 	Ends here -->
+	</div> 
+</html>
